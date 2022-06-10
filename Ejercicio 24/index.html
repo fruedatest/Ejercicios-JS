@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="text-container">
+        <h2>Welcome</h2>
+        <h3>to</h3>
+        <h1>Darbuka Sounds</h1>
+      </div>
+
+      <div class="img-main-container">
+        <div id="sound01" class="img-container" >
+          <img class="img-sound" src="./images/2.webp" onmouseover="PlaySound('mySound01')" 
+          onmouseout="StopSound('mySound')"/>
+          <p>A</p>
+        </div>
+        <div id="sound02" class="img-container" >
+          <img class="img-sound" src="./images/3.webp" onmouseover="PlaySound('mySound02')" 
+          onmouseout="StopSound('mySound')"/>
+          <p>B</p>
+        </div>
+        <div id="sound03" class="img-container" >
+          <img class="img-sound" src="./images/4.webp" onmouseover="PlaySound('mySound03')" 
+          onmouseout="StopSound('mySound')"/>
+          <p>C</p>
+        </div>
+        <div id="sound04" class="img-container" >
+          <img class="img-sound" src="./images/5.webp" onmouseover="PlaySound('mySound04')" 
+          onmouseout="StopSound('mySound')"/>
+          <p>D</p>
+        </div>
+        <div id="sound05" class="img-container" >
+          <img class="img-sound" src="./images/1.webp" onmouseover="PlaySound('mySound05')" 
+          onmouseout="StopSound('mySound')"/>
+          <p>E</p>
+        </div>
+      </div>
+
+      <audio id="mySound01" src="./sounds/Darbuka_06_76_SP.mp3"></audio>
+      <audio id="mySound02" src="./sounds/Darbuka_105_76_SP.mp3"></audio>
+      <audio id="mySound03" src="./sounds/Darbuka_118_76_SP.mp3"></audio>
+      <audio id="mySound04" src="./sounds/Darbuka_130_76_SP.mp3"></audio>
+      <audio id="mySound05" src="./sounds/Darbuka_159_76_SP.mp3"></audio>
+
+    
+
+    <script src="main.js"></script>
+  </body>
+</html>
